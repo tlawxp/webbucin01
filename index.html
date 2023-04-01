@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5"
+        name="viewport" />
+    <!-- ==================================================== -->
+    <!-- [ Author ] -->
+    <!-- ==================================================== -->
+    <meta name="author" content="description">
+    <meta name="TlawXp" content="Hallo onii chan >///<, aku sayang kalian semua!">
+    <!-- ==================================================== -->
+    <!-- [ Keywords pencarian ] -->
+    <!-- ==================================================== -->
+    <meta name="keywords" content="HTML, CSS, JavaScript, Website Gombal, Tlawxp, tlawxp, Tlaw, tlaw, Website">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <!-- ==================================================== -->
+    <!-- [ Nama situs ] -->
+    <!-- ==================================================== -->
+    <meta property="og:site_name" content="tlawxp">
+    <!-- ==================================================== -->
+    <!-- [ Title meta ] -->
+    <!-- ==================================================== -->
+    <meta property="og:title" content="Website Gombal" />
+    <!-- ==================================================== -->
+    <!-- [ Image ] -->
+    <!-- ==================================================== -->
+    <meta property="og:image" itemprop="image" content="static/img/foto1.jpeg">
+    <!-- ==================================================== -->
+    <!-- [ Type website ] -->
+    <!-- ==================================================== -->
+    <meta property="og:type" content="Website Gombal" />
+    <!-- ==================================================== -->
+    <!-- [ Waktu update ] -->
+    <!-- ==================================================== -->
+    <meta property="og:updated_time" content="05.07" />
+    <!-- ==================================================== -->
+    <!-- [ Descripsion ] -->
+    <!-- ==================================================== -->
+    <meta property="og:description" content="Hallo onii chan >///<, aku sayang kalian semua!" />
+    <!-- ==================================================== -->
+    <!-- [ Descripsion ] -->
+    <!-- ==================================================== -->
+    <meta name="description" content="Hallo onii chan >///<, aku sayang kalian semua!" />
+    <!-- ==================================================== -->
+    <!-- [ Descripsion ] -->
+    <!-- ==================================================== -->
+    <meta name="description" property="Hallo onii chan >///<, aku sayang kalian semua!" />
+    <!-- ==================================================== -->
+    <!-- [ Descripsion twitter ] -->
+    <!-- ==================================================== -->
+    <meta name="twitter:description" content="Hallo onii chan >///<, aku sayang kalian semua!" />
+    <!-- ==================================================== -->
+    <!-- [ Descripsion whatsapp ] -->
+    <!-- ==================================================== -->
+    <meta name="whatsapp:description" content="Hallo onii chan >///<, aku sayang kalian semua!" />
+    <!-- ==================================================== -->
+    <!-- [ Icon ] -->
+    <!-- ==================================================== -->
+    <link rel="icon" href="static/img/foto1.jpeg">
+    <!-- ==================================================== -->
+    <title>Website Bucin:v</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <div class="bgPopup" id="bgPopup">
+        <div class="popup">
+            <div class="header">
+                <h1>現れる</h1>
+            </div>
+            <div class="content">
+                <img src="static/img/foto1.jpeg" alt="img1">
+                <p>Selamat datang onii chan >///<, saya sudah menunggumu dari tadi untuk melihat website ini.</p>
+                        <button id="btnClose">近い -> 音楽を再生</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="static/img/foto2.png" alt="img2">
+        <p>Hallo...,saya cuman ingin ngomong gini, saya sayang kalian semua >///<. </p>
+            <a href="https://wa.me/6285794986495"><i class="fa fa-whatsapp"></i> Whatsapp</a>
+    </div>
+    <!-- ==================================================== -->
+    <!-- [ Kit fontawesome Tlaw ] -->
+    <!-- ==================================================== -->
+    <script src="https://kit.fontawesome.com/95173b3ff4.js" crossorigin="anonymous"></script>
+    <!-- ==================================================== -->
+    <script>
+        var btnClose = document.getElementById("btnClose")
+        var bgPopup = document.getElementById("bgPopup")
+        var audio = new Audio("music.mp3")
+        btnClose.onclick = function () {
+            bgPopup.style.display = "none"
+            audio.play()
+        }
+    </script>
+</body>
+
+</html>
